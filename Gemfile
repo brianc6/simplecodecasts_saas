@@ -8,7 +8,7 @@ gem 'sqlite3', group: [:development, :test]
 
 
 # use bootstrap library
-gem 'bootstrap-sass', '3.3.1'
+gem 'bootstrap-sass', '3.3.5'
 
 
 group :production do
