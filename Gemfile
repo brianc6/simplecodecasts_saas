@@ -7,14 +7,19 @@ gem 'sqlite3', group: [:development, :test]
 # Use postgresql as the database for production
 
 
-# use bootstrap library
-gem 'bootstrap-sass', '3.3.5'
 
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+# use bootstrap library
+gem 'bootstrap-sass', '3.3.5'
+
+# use font for navbar
+gem 'font-awesome-sass', '4.2.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use Uglifier as compressor for JavaScript assets
